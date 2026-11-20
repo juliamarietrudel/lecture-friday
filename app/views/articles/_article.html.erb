@@ -9,4 +9,11 @@
     <%= article.body %>
   </div>
 
+  <% article.photos.each do |photo| %>
+    <div class="card-category"
+      style="background-image: url('<%= cl_image_path photo.key, height: 300, crop: :fill %>')"
+    >
+      Cool article
+    </div>
+  <% end %>
 </div>

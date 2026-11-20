@@ -7,6 +7,7 @@ gem "simple_form"
 gem "sassc-rails"
 
 gem "dotenv-rails"
+gem "cloudinary"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.1.4", ">= 8.1.4.1"
